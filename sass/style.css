@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  background-position: center;
+  background-position: center top;
   background-image: url("../assets/imgs/bg-home.jpg");
 }
 
@@ -382,4 +382,4 @@ header.header-menu .c-btn {
 }
 .home .c-btn-primary {
   max-width: 350px;
-}
+}/*# sourceMappingURL=style.css.map */

@@ -10,27 +10,8 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  @include media-breakpoint-up($lg) {
-    background-position: center top;
-    &.participer,
-    &.connexion,
-    &.creation-compte {
-      background-image: url("../assets/imgs/bg-login.jpg");
-    }
-    &.reinitialisation-mdp {
-      background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
-    }
-    &.home {
-      background-image: url("../assets/imgs/bg-home.jpg");
-    }
-    &.reinitialisation-mdp {
-      background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
-    }
-    &.enregistrer-action,
-    &.mes-coordonees {
-      background-image: url("../assets/imgs/bg-action.jpg");
-    }
-  }
+  background-position: center;
+  background-image: url("../assets/imgs/bg-home.jpg");
 }
 
 main {

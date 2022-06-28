@@ -1,4 +1,4 @@
-<?php include("partials/head.php"); ?>
+<?php include("partials/header.php"); ?>
 
 <div class="container d-flex align-items-center justify-content-center py-5">
   <div class="w-100">
