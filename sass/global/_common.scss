@@ -1,0 +1,158 @@
+.c-btn {
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  &.c-btn-primary {
+    background-color: $blue;
+    color: white;
+    box-shadow: 0px 1px 16px 0px #0000004d;
+    img {
+      vertical-align: baseline;
+    }
+  }
+  &.c-btn-secondary {
+    color: $blue;
+    border: solid 2px $blue;
+    background-color: transparent;
+  }
+}
+
+.c-form {
+  .input-container {
+    position: relative;
+    label {
+      padding: 0 0 10px 20px;
+    }
+  }
+  input,
+  select {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 62px;
+    padding: 0 40px 0 15px;
+    border-radius: 20px;
+    border: 1px solid $light-grey;
+    outline: 0;
+    & + svg {
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      stroke: $grey;
+      &.email {
+        top: 23px;
+      }
+    }
+    & + img {
+      position: absolute;
+      top: 55px;
+      right: 30px;
+    }
+    &[type="file"] {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+      & + label {
+        display: flex;
+        align-items: center;
+      }
+    }
+    &:focus {
+      border: 2px solid $blue;
+      color: $blue;
+      & + svg {
+        stroke: $blue;
+      }
+      &::placeholder {
+        color: $blue;
+        opacity: 1;
+      }
+    }
+  }
+  ::placeholder {
+    color: $grey;
+    opacity: 1;
+  }
+  select {
+    background-color: white;
+    cursor: pointer;
+    appearance: none;
+    color: red;
+  }
+  .checkbox-container {
+    position: relative;
+    display: block;
+    padding-left: 27px;
+    margin-top: 15px;
+    margin: 0 30px 20px 20px;
+    color: $grey;
+    cursor: pointer;
+    line-height: 20px;
+    @include media-breakpoint-up($lg) {
+      align-self: center;
+    }
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+      cursor: pointer;
+      &:checked ~ .checkmark {
+        border: 2px solid $blue;
+        &:after {
+          display: block;
+        }
+      }
+    }
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 18px;
+      width: 18px;
+      border-radius: 2px;
+      border: 1px solid $light-grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:after {
+        content: "";
+        display: none;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: $blue;
+      }
+    }
+  }
+  select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M12 15L12.7071 15.7071L12 16.4142L11.2929 15.7071L12 15ZM18.7071 9.70711L12.7071 15.7071L11.2929 14.2929L17.2929 8.29289L18.7071 9.70711ZM11.2929 15.7071L5.29289 9.70711L6.70711 8.29289L12.7071 14.2929L11.2929 15.7071Z' fill='#D1D1D1'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    background-position-y: 8px;
+    color: $grey;
+  }
+}
+
+.c-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: $black;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.blue-text {
+  color: $blue;
+}

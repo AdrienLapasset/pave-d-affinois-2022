@@ -1,0 +1,17 @@
+// Import Fonts
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap");
+
+// Partials
+@import "global/variables&mixins";
+@import "global/base";
+@import "global/common";
+@import "partials/header";
+@import "partials/footer";
+
+//Pages
+@import "pages/home";
+@import "pages/accueil";
+@import "pages/reinitialisation-mdp";
+@import "pages/connexion";
+@import "pages/comment-participer";
+@import "pages/enregistrer-action";

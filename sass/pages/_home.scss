@@ -1,0 +1,41 @@
+.home {
+  text-align: center;
+  justify-content: flex-start;
+  @include media-breakpoint-up($sm) {
+    justify-content: center;
+    text-align: start;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 60px;
+    color: #1986d9;
+    margin-bottom: 10px;
+    @include media-breakpoint-up($sm) {
+      font-size: 80px;
+    }
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 22px;
+    color: $black;
+    margin-bottom: 20px;
+    @include media-breakpoint-up($sm) {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $black;
+    margin-bottom: 30px;
+    max-width: 360px;
+    @include media-breakpoint-up($sm) {
+      font-size: 20px;
+    }
+  }
+  .c-btn-primary {
+    max-width: 350px;
+  }
+}
