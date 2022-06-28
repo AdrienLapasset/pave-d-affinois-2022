@@ -33,7 +33,11 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <input type="text" placeholder="Nom*" required>
+                        <input type="file" id="file">
+                        <label for="file" class="input">
+                           <img class="me-2" src="assets/icons/photo.png" alt="">
+                        Parcourir
+                        </label>
                     </div>
                     <div class="col-lg-6">
                         <input type="text" placeholder="Prénom*" required>

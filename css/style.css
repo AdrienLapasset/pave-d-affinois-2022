@@ -57,6 +57,7 @@ h1 b {
   margin: 0 auto;
 }
 
+.home form .input,
 .home form input,
 .home form select {
   margin-bottom: 10px;
@@ -69,4 +70,20 @@ h1 b {
   font-weight: 300;
   font-style: italic;
   color: #17383e;
+}
+.home form .input[type=file],
+.home form input[type=file],
+.home form select[type=file] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.home form .input[type=file] + label,
+.home form input[type=file] + label,
+.home form select[type=file] + label {
+  display: flex;
+  align-items: center;
 }
