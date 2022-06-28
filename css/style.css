@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,300&display=swap");
 body {
   min-height: 100vh;
   overflow-x: hidden;
   font-family: "Maven Pro", sans-serif;
   font-size: 17px;
   font-weight: 400;
-  color: #092234;
+  color: #17383e;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,12 +23,12 @@ main.content-center {
 }
 
 a {
-  color: #54a4f5;
+  color: #17383e;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover {
-  color: #54a4f5;
+  color: #17383e;
 }
 
 button {
@@ -39,347 +39,34 @@ button:focus {
   outline: none;
 }
 
-.c-btn {
-  font-size: 16px;
-  font-weight: 700;
-  width: 100%;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   text-align: center;
-  display: flex;
-  cursor: pointer;
-  height: 60px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-}
-.c-btn.c-btn-primary {
-  background-color: #54a4f5;
-  color: white;
-  box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.3019607843);
-}
-.c-btn.c-btn-primary img {
-  vertical-align: baseline;
-}
-.c-btn.c-btn-secondary {
-  color: #54a4f5;
-  border: solid 2px #54a4f5;
-  background-color: transparent;
-}
-
-.c-form .input-container {
-  position: relative;
-}
-.c-form .input-container label {
-  padding: 0 0 10px 20px;
-}
-.c-form input,
-.c-form select {
-  margin-bottom: 20px;
-  width: 100%;
-  height: 62px;
-  padding: 0 40px 0 15px;
-  border-radius: 20px;
-  border: 1px solid #d1d1d1;
-  outline: 0;
-}
-.c-form input + svg,
-.c-form select + svg {
-  position: absolute;
-  top: 15px;
-  right: 30px;
-  stroke: #6e7191;
-}
-.c-form input + svg.email,
-.c-form select + svg.email {
-  top: 23px;
-}
-.c-form input + img,
-.c-form select + img {
-  position: absolute;
-  top: 55px;
-  right: 30px;
-}
-.c-form input[type=file],
-.c-form select[type=file] {
-  width: 0.1px;
-  height: 0.1px;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-  z-index: -1;
-}
-.c-form input[type=file] + label,
-.c-form select[type=file] + label {
-  display: flex;
-  align-items: center;
-}
-.c-form input:focus,
-.c-form select:focus {
-  border: 2px solid #54a4f5;
-  color: #54a4f5;
-}
-.c-form input:focus + svg,
-.c-form select:focus + svg {
-  stroke: #54a4f5;
-}
-.c-form input:focus::-moz-placeholder, .c-form select:focus::-moz-placeholder {
-  color: #54a4f5;
-  opacity: 1;
-}
-.c-form input:focus:-ms-input-placeholder, .c-form select:focus:-ms-input-placeholder {
-  color: #54a4f5;
-  opacity: 1;
-}
-.c-form input:focus::placeholder,
-.c-form select:focus::placeholder {
-  color: #54a4f5;
-  opacity: 1;
-}
-.c-form ::-moz-placeholder {
-  color: #6e7191;
-  opacity: 1;
-}
-.c-form :-ms-input-placeholder {
-  color: #6e7191;
-  opacity: 1;
-}
-.c-form ::placeholder {
-  color: #6e7191;
-  opacity: 1;
-}
-.c-form select {
-  background-color: white;
-  cursor: pointer;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  color: red;
-}
-.c-form .checkbox-container {
-  position: relative;
-  display: block;
-  padding-left: 27px;
-  margin-top: 15px;
-  margin: 0 30px 20px 20px;
-  color: #6e7191;
-  cursor: pointer;
-  line-height: 20px;
-}
-@media (min-width: 992px) {
-  .c-form .checkbox-container {
-    align-self: center;
-  }
-}
-.c-form .checkbox-container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-  cursor: pointer;
-}
-.c-form .checkbox-container input:checked ~ .checkmark {
-  border: 2px solid #54a4f5;
-}
-.c-form .checkbox-container input:checked ~ .checkmark:after {
-  display: block;
-}
-.c-form .checkbox-container .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 18px;
-  width: 18px;
-  border-radius: 2px;
-  border: 1px solid #d1d1d1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.c-form .checkbox-container .checkmark:after {
-  content: "";
-  display: none;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #54a4f5;
-}
-.c-form select {
-  cursor: pointer;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-image: url("data:image/svg+xml;utf8,<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M12 15L12.7071 15.7071L12 16.4142L11.2929 15.7071L12 15ZM18.7071 9.70711L12.7071 15.7071L11.2929 14.2929L17.2929 8.29289L18.7071 9.70711ZM11.2929 15.7071L5.29289 9.70711L6.70711 8.29289L12.7071 14.2929L11.2929 15.7071Z' fill='#D1D1D1'/></svg>");
-  background-repeat: no-repeat;
-  background-position-x: 180px;
-  background-position-y: 8px;
-  color: #6e7191;
-}
-
-.c-title {
-  font-size: 26px;
-  font-weight: 700;
-  color: #092234;
-  line-height: 40px;
-  margin-bottom: 25px;
-}
-
-.blue-text {
-  color: #54a4f5;
-}
-
-header .container {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-@media (min-width: 992px) {
-  header .container {
-    height: 200px;
-  }
-}
-header .brand-logo-desktop {
-  width: 318px;
-  display: none;
-}
-@media (min-width: 992px) {
-  header .brand-logo-desktop {
-    display: block;
-  }
-}
-header .brand-logo-small {
-  width: 106px;
-}
-@media (min-width: 992px) {
-  header .brand-logo-small {
-    display: none;
-  }
-}
-header.header-home .c-btn-primary {
-  padding: 10px 30px;
-  color: #54a4f5;
-  border-radius: 10px;
-  border: solid 2px #54a4f5;
-  max-width: 170px;
-  background-color: white;
-  box-shadow: none;
-}
-@media (min-width: 992px) {
-  header.header-home .c-btn-primary {
-    padding: 15px 60px;
-    max-width: 205px;
-    background-color: #54a4f5;
-    color: white;
-    border-radius: 20px;
-    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.3019607843);
-  }
-}
-header.header-compte .logo-container, header.header-menu .logo-container {
-  display: flex;
-  align-items: center;
-}
-@media (min-width: 992px) {
-  header.header-compte .logo-container, header.header-menu .logo-container {
-    display: block;
-  }
-}
-header.header-compte .brand-logo-desktop, header.header-menu .brand-logo-desktop {
-  width: 204px;
-}
-header.header-compte .brand-logo-small, header.header-menu .brand-logo-small {
-  width: 106px;
-  margin-right: 15px;
-}
-header.header-menu .navbar {
-  padding: 20px 0;
-}
-@media (min-width: 992px) {
-  header.header-menu .navbar {
-    height: 200px;
-  }
-}
-header.header-menu .navbar .navbar-toggler {
-  border: 0;
-}
-@media (min-width: 992px) {
-  header.header-menu .navbar .navbar-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-left: 40px;
-  }
-}
-header.header-menu .navbar .navbar-nav .nav-link {
-  font-size: 16px;
-  color: #092234;
-  text-align: center;
-}
-@media (min-width: 992px) {
-  header.header-menu .navbar .navbar-nav .nav-link {
-    text-align: left;
-  }
-}
-header.header-menu .navbar .navbar-nav .nav-link.active {
-  font-weight: 700;
-}
-header.header-menu .c-btn {
-  padding: 17px 50px;
-  display: block;
-  margin: 20px auto 0;
-}
-@media (min-width: 992px) {
-  header.header-menu .c-btn {
-    margin-top: 0px;
-  }
-}
-
-.home {
-  text-align: center;
-  justify-content: flex-start;
-}
-@media (min-width: 576px) {
-  .home {
-    justify-content: center;
-    text-align: start;
-  }
-}
-.home h1 {
-  font-weight: 900;
-  font-size: 60px;
-  color: #1986d9;
-  margin-bottom: 10px;
-}
-@media (min-width: 576px) {
-  .home h1 {
-    font-size: 80px;
-  }
-}
-.home h2 {
-  font-weight: 300;
-  font-size: 22px;
-  color: #092234;
-  margin-bottom: 20px;
-}
-@media (min-width: 576px) {
-  .home h2 {
-    font-size: 34px;
-    margin-bottom: 10px;
-  }
-}
-.home p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: #092234;
   margin-bottom: 30px;
-  max-width: 360px;
 }
-@media (min-width: 576px) {
-  .home p {
-    font-size: 20px;
-  }
+h1 b {
+  font-weight: 900;
 }
-.home .c-btn-primary {
-  max-width: 350px;
+
+.c-block {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.home form input,
+.home form select {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  padding: 0 20px 0 15px;
+  border: 1px solid #f4e4c8;
+  outline: 0;
+  background-color: transparent;
+  font-weight: 300;
+  font-style: italic;
+  color: #17383e;
 }
