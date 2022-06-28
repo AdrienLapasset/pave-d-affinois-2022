@@ -15,6 +15,6 @@
 </head>
 
 <body>
-  <header class="mb-4">
+  <header class="mb-5">
     <img class="d-block m-auto" src="assets/logos/LOGO PAVE D'AFFINOIS.png" alt="">
   </header>
