@@ -8,10 +8,10 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <select class="select-number" name="" id="" required>
-                            <option value="1">Civilité*</option>
+                         <option value="1">Civilité*</option>
                             <option value="2">Mme</option>
                             <option value="3">M.</option>
-                        </select>
+                      </select>
                     </div>
                 </div>
                 <div class="row">
@@ -53,21 +53,25 @@
                         </label>
                     </div>
                     <div class="my-4">
-                      <div class="checkbox-container">
-                        <input type="checkbox" id="data" class="me-2">
-                        <label for="data">
-                          J’accepte que mes données personnelles** soient utilisées dans le cadre du jeu*
-                        </label>
-                      </div>
-                      <div class="checkbox-container">
-                        <input type="checkbox" id="data" class="me-2">
-                        <label for="data">
-                        J’ai lu et j’accepte le règlement du jeu*
-                        </label>
-                      </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="data" class="me-2">
+                            <label for="data">
+                                J’accepte que mes <b>données personnelles**</b> soient utilisées dans le cadre du jeu*
+                            </label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="data" class="me-2">
+                            <label for="data">
+                                J’ai lu et j’accepte <a href="">le règlement du jeu*</a>
+                            </label>
+                        </div>
                     </div>
                     <p class="info">
-                      ** Vos données sont collectées par la société Fromagerie Guilloteau pour la participation au jeu concours et la remise des lots. Le nom des gagnants ainsi que leur lieu d’habitation pourront également être utilisés dans des campagnes publicitaires liées au jeu. Vous disposez de droits sur vos données. Plus d’informations sur la gestion de vos données disponibles sur le règlement du jeu-concours disponible ici pavedaufinois.com
+                        ** Vos données sont collectées par la société Fromagerie Guilloteau pour la participation au jeu
+                        concours et la remise des lots. Le nom des gagnants ainsi que leur lieu d’habitation pourront
+                        également être utilisés dans des campagnes publicitaires liées au jeu. Vous disposez de droits
+                        sur vos données. Plus d’informations sur la gestion de vos données disponibles sur le règlement
+                        du jeu-concours disponible ici <a href="https://wwww.pavedaufinois.com">pavedaufinois.com</a>
                     </p>
                 </div>
                 <button type="submit" class="c-btn">Valider</button>

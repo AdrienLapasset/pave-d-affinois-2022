@@ -1,5 +1,7 @@
 <footer>
-  
+  <a href="">Contact - </a>
+  <a href="">Règlement - </a>
+  <a href="">Mentions Légales</a>
 </footer>
 
 <!-- Bootstrap JS import -->

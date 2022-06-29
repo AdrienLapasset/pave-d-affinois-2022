@@ -53,9 +53,14 @@ h1 b {
 .c-block {
   background-color: white;
   border-radius: 5px;
-  padding: 40px;
+  padding: 30px 15px;
   max-width: 830px;
   margin: 0 auto 40px;
+}
+@media (min-width: 992px) {
+  .c-block {
+    padding: 40px;
+  }
 }
 
 .c-btn {
@@ -70,6 +75,12 @@ h1 b {
   font-size: 30px;
   padding: 0 40px;
   margin: 30px auto;
+}
+
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 .home form .input,
@@ -105,8 +116,17 @@ h1 b {
 .home form .checkbox-container {
   display: flex;
   font-family: "Quicksand", sans-serif;
+  align-items: flex-start;
+}
+.home form .checkbox-container input {
+  position: relative;
+  top: 3px;
 }
 .home form .info {
   font-family: "Fira Sans Extra Condensed", sans-serif;
   font-size: 12px;
+}
+.home a {
+  color: #ee7b1e;
+  text-decoration: underline;
 }

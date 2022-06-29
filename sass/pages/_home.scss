@@ -29,10 +29,19 @@
     .checkbox-container {
       display: flex;
       font-family: "Quicksand", sans-serif;
+      align-items: flex-start;
+      input {
+        position: relative;
+        top: 3px;
+      }
     }
     .info {
       font-family: "Fira Sans Extra Condensed", sans-serif;
       font-size: 12px;
     }
+  }
+  a {
+    color: $orange;
+    text-decoration: underline;
   }
 }
