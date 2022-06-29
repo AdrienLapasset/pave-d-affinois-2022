@@ -29,3 +29,16 @@
     }
   }
 }
+
+.confirmation {
+  text-align: center;
+  h1 {
+    font-size: 30px;
+    b {
+      font-weight: 900;
+      &:first-child {
+        font-size: 40px;
+      }
+    }
+  }
+}
