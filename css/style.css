@@ -17,6 +17,9 @@ body {
 body.etapes {
   background-image: url("../assets/imgs/bg-etapes.jpg");
 }
+body.confirmation {
+  background-image: url("../assets/imgs/bg-confirmation.jpg");
+}
 
 main {
   min-height: calc(100vh - 320px);
