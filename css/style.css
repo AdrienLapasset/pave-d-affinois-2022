@@ -50,7 +50,7 @@ h1 {
   font-weight: 600;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 46px;
+  font-size: 36px;
 }
 
 .c-block {
@@ -67,10 +67,11 @@ h1 {
 }
 .c-block h1,
 .c-block h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 .c-block p {
-  font-size: 18px;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
 .c-btn {
@@ -148,10 +149,10 @@ footer {
   font-weight: 900;
 }
 .etapes h1 b:first-child {
-  font-size: 64px;
+  font-size: 54px;
 }
 .etapes aside {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 .etapes h2 {
@@ -161,12 +162,12 @@ footer {
 .etapes .c-block {
   padding: 30px 15px;
 }
-.etapes a {
+.etapes .c-btn {
   display: flex;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
-.etapes a:hover {
+.etapes .c-btn:hover {
   color: white;
 }
