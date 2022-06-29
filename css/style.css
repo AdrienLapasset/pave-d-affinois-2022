@@ -7,11 +7,10 @@ body {
   font-weight: 400;
   color: #17383e;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  background-position: center;
   background-image: url("../assets/imgs/bg-home.jpg");
 }
 body.bg-etapes {
@@ -54,7 +53,7 @@ h1 {
 }
 
 .c-block {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
   padding: 30px 15px;
   max-width: 830px;
@@ -124,6 +123,18 @@ footer {
   display: flex;
   align-items: center;
 }
+.home form ::-moz-placeholder {
+  color: #17383e;
+  opacity: 1;
+}
+.home form :-ms-input-placeholder {
+  color: #17383e;
+  opacity: 1;
+}
+.home form ::placeholder {
+  color: #17383e;
+  opacity: 1;
+}
 .home form .checkbox-container {
   display: flex;
   font-family: "Quicksand", sans-serif;
@@ -145,6 +156,9 @@ footer {
 .etapes {
   text-align: center;
 }
+.etapes h1 {
+  text-transform: uppercase;
+}
 .etapes h1 b {
   font-weight: 900;
 }
@@ -161,6 +175,7 @@ footer {
 }
 .etapes .c-block {
   padding: 30px 15px;
+  max-width: 700px;
 }
 .etapes .c-btn {
   display: flex;

@@ -1,6 +1,7 @@
 .etapes {
   text-align: center;
   h1 {
+    text-transform: uppercase;
     b {
       font-weight: 900;
       &:first-child {
@@ -18,6 +19,7 @@
   }
   .c-block {
     padding: 30px 15px;
+    max-width: 700px;
   }
   .c-btn {
     display: flex;

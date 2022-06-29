@@ -26,6 +26,10 @@
         }
       }
     }
+    ::placeholder {
+      color: $black;
+      opacity: 1;
+    }
     .checkbox-container {
       display: flex;
       font-family: "Quicksand", sans-serif;
