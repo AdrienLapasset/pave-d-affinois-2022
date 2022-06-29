@@ -2,7 +2,7 @@
 body {
   min-height: 100vh;
   overflow-x: hidden;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #17383e;
@@ -68,6 +68,13 @@ h1 b:first-child {
     padding: 40px;
   }
 }
+.c-block h1,
+.c-block h2 {
+  font-size: 30px;
+}
+.c-block p {
+  font-size: 18px;
+}
 
 .c-btn {
   height: 70px;
@@ -89,9 +96,6 @@ footer {
   text-align: center;
 }
 
-.home h1 {
-  font-size: 30px;
-}
 .home form .input,
 .home form input:not([type=checkbox]),
 .home form select {
@@ -146,4 +150,11 @@ footer {
 .etapes aside {
   font-size: 30px;
   margin-bottom: 30px;
+}
+.etapes h2 {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.etapes .c-block {
+  padding: 30px 15px;
 }
