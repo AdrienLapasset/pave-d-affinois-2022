@@ -14,7 +14,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
+<body class="<?php echo $page ?>">
   <header class="my-4">
     <img class="d-block m-auto" src="assets/logos/LOGO PAVE D'AFFINOIS.png" alt="">
   </header>

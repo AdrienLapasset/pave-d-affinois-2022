@@ -2,7 +2,7 @@
 body {
   min-height: 100vh;
   overflow-x: hidden;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #17383e;
@@ -14,12 +14,15 @@ body {
   background-position: center;
   background-image: url("../assets/imgs/bg-home.jpg");
 }
+body.etapes {
+  background-image: url("../assets/imgs/bg-etapes.jpg");
+}
 
-main.content-center {
+main {
+  min-height: calc(100vh - 320px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: calc(100vh - 200px);
+  align-items: center;
 }
 
 a {
@@ -44,10 +47,13 @@ h1 {
   font-weight: 600;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 46px;
 }
 h1 b {
   font-weight: 900;
+}
+h1 b:first-child {
+  font-size: 64px;
 }
 
 .c-block {
@@ -83,6 +89,9 @@ footer {
   text-align: center;
 }
 
+.home h1 {
+  font-size: 30px;
+}
 .home form .input,
 .home form input:not([type=checkbox]),
 .home form select {
@@ -129,4 +138,12 @@ footer {
 .home a {
   color: #ee7b1e;
   text-decoration: underline;
+}
+
+.etapes {
+  text-align: center;
+}
+.etapes aside {
+  font-size: 30px;
+  margin-bottom: 30px;
 }
