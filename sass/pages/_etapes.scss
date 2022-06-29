@@ -1,5 +1,13 @@
 .etapes {
   text-align: center;
+  h1 {
+    b {
+      font-weight: 900;
+      &:first-child {
+        font-size: 64px;
+      }
+    }
+  }
   aside {
     font-size: 30px;
     margin-bottom: 30px;
@@ -10,5 +18,12 @@
   }
   .c-block {
     padding: 30px 15px;
+  }
+  a {
+    display: flex;
+    width: fit-content;
+    &:hover {
+      color: white;
+    }
   }
 }

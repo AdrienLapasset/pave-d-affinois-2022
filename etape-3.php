@@ -15,7 +15,7 @@ includeHeader('etapes')
         <h2>Merci de votre participation</h2>
         <p>N’hésitez pas à retenter votre chance<br> avec une nouvelle preuve d’achat !</p>
       </div>
-      <button class="c-btn">Suivant</button>
+      <a href="confirmation.php" class="c-btn">Suivant</a>
     </div>
 </main>
 

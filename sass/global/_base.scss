@@ -12,10 +12,10 @@ body {
   flex-direction: column;
   background-position: center;
   background-image: url("../assets/imgs/bg-home.jpg");
-  &.etapes {
+  &.bg-etapes {
     background-image: url("../assets/imgs/bg-etapes.jpg");
   }
-  &.confirmation {
+  &.bg-confirmation {
     background-image: url("../assets/imgs/bg-confirmation.jpg");
   }
 }
