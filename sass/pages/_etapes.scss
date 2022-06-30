@@ -32,6 +32,7 @@
 
 .confirmation {
   text-align: center;
+  justify-content: space-between;
   h1 {
     font-size: 30px;
     b {
@@ -39,6 +40,11 @@
       &:first-child {
         font-size: 40px;
       }
+    }
+  }
+  img {
+    @include media-breakpoint-up($sm) {
+      margin-top: -80px;
     }
   }
 }

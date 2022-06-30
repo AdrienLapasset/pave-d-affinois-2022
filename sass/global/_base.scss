@@ -6,17 +6,17 @@ body {
   font-weight: 400;
   color: $black;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/imgs/bg-home.jpg");
-  &.bg-etapes {
-    background-image: url("../assets/imgs/bg-etapes.jpg");
-  }
-  &.bg-confirmation {
-    background-image: url("../assets/imgs/bg-confirmation-mobile.jpg");
-    @include media-breakpoint-up($sm) {
+  background-image: url("../assets/imgs/bg-mobile.jpg");
+  @include media-breakpoint-up($sm) {
+    background-image: url("../assets/imgs/bg-home.jpg");
+    &.bg-etapes {
+      background-image: url("../assets/imgs/bg-etapes.jpg");
+    }
+    &.bg-confirmation {
       background-image: url("../assets/imgs/bg-confirmation.jpg");
     }
   }

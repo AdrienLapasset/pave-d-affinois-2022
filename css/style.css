@@ -7,19 +7,19 @@ body {
   font-weight: 400;
   color: #17383e;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/imgs/bg-home.jpg");
-}
-body.bg-etapes {
-  background-image: url("../assets/imgs/bg-etapes.jpg");
-}
-body.bg-confirmation {
-  background-image: url("../assets/imgs/bg-confirmation-mobile.jpg");
+  background-image: url("../assets/imgs/bg-mobile.jpg");
 }
 @media (min-width: 576px) {
+  body {
+    background-image: url("../assets/imgs/bg-home.jpg");
+  }
+  body.bg-etapes {
+    background-image: url("../assets/imgs/bg-etapes.jpg");
+  }
   body.bg-confirmation {
     background-image: url("../assets/imgs/bg-confirmation.jpg");
   }
@@ -194,6 +194,7 @@ footer {
 
 .confirmation {
   text-align: center;
+  justify-content: space-between;
 }
 .confirmation h1 {
   font-size: 30px;
@@ -203,4 +204,9 @@ footer {
 }
 .confirmation h1 b:first-child {
   font-size: 40px;
+}
+@media (min-width: 576px) {
+  .confirmation img {
+    margin-top: -80px;
+  }
 }
