@@ -11,10 +11,11 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("../assets/imgs/bg-mobile.jpg");
+  position: relative;
   @include media-breakpoint-up($sm) {
-    background-image: url("../assets/imgs/bg-home.jpg");
+    background-image: url("../assets/imgs/bg-confirmation.jpg");
     &.bg-etapes {
-      background-image: url("../assets/imgs/bg-etapes.jpg");
+      background-image: url("../assets/imgs/bg-confirmation.jpg");
     }
     &.bg-confirmation {
       background-image: url("../assets/imgs/bg-confirmation.jpg");

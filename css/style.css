@@ -12,13 +12,14 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("../assets/imgs/bg-mobile.jpg");
+  position: relative;
 }
 @media (min-width: 576px) {
   body {
-    background-image: url("../assets/imgs/bg-home.jpg");
+    background-image: url("../assets/imgs/bg-confirmation.jpg");
   }
   body.bg-etapes {
-    background-image: url("../assets/imgs/bg-etapes.jpg");
+    background-image: url("../assets/imgs/bg-confirmation.jpg");
   }
   body.bg-confirmation {
     background-image: url("../assets/imgs/bg-confirmation.jpg");
@@ -90,6 +91,18 @@ h1 {
   font-size: 30px;
   padding: 0 40px;
   margin: 30px auto;
+}
+
+.img-produits {
+  display: none;
+}
+@media (min-width: 576px) {
+  .img-produits {
+    position: absolute;
+    display: block;
+    z-index: -1;
+    bottom: 0;
+  }
 }
 
 footer {
