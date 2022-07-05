@@ -71,7 +71,10 @@
             concours et la remise des lots. Le nom des gagnants ainsi que leur lieu d’habitation pourront
             également être utilisés dans des campagnes publicitaires liées au jeu. Vous disposez de droits
             sur vos données. Plus d’informations sur la gestion de vos données disponibles sur le règlement
-            du jeu-concours disponible ici <a href="https://wwww.pavedaufinois.com">pavedaufinois.com</a>
+            du jeu-concours disponible ici <a href="https://wwww.pavedaufinois.com">pavedaufinois.com</a>.<br>
+            Conditions particulières pour la Corse : Quitoque n’effectuant pas de livraison en Corse, le gagnant sera
+            remboursé à hauteur de 34€ sur ses achats au rayon « Fruits et Légumes », sous présentation de son ticket de
+            caisse.
           </p>
         </div>
         <button type="submit" class="c-btn">Valider</button>

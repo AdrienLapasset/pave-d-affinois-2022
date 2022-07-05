@@ -78,6 +78,10 @@ h1 {
   font-size: 16px;
   margin-bottom: 0;
 }
+.c-block p.info {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-size: 12px;
+}
 
 .c-btn {
   height: 70px;
@@ -161,10 +165,6 @@ footer {
 .home form .checkbox-container input {
   position: relative;
   top: 3px;
-}
-.home form .info {
-  font-family: "Fira Sans Extra Condensed", sans-serif;
-  font-size: 12px;
 }
 .home a {
   color: #ee7b1e;

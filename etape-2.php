@@ -14,9 +14,15 @@ includeHeader('bg-etapes')
     <img src="assets/imgs/etape-2.png" alt="" class="img-fluid">
     <div class="c-block mt-2">
       <h2>Vous remportez votre panier Quitoque</h2>
-      <p>Un e-mail de confirmation de réception de votre dossier va vous être envoyé dans quelques instants. Nous
+      <p class="mb-3">Un e-mail de confirmation de réception de votre dossier va vous être envoyé dans quelques
+        instants. Nous
         reviendrons vers vous dès que vos preuves d’achats aurons été vérifiées et définitivement validées.
         Pensez à regarder dans vos courriers indésirables !</p>
+      <p class="info">
+        Conditions particulières pour la Corse : Quitoque n’effectuant pas de livraison en Corse, le gagnant sera
+        remboursé à hauteur de 34€ sur ses achats au rayon « Fruits et Légumes », sous présentation de son ticket de
+        caisse.
+      </p>
     </div>
     <a href="confirmation.php" class="c-btn">Suivant</a>
   </div>
